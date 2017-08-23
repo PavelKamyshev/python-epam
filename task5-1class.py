@@ -38,65 +38,66 @@ gm = get_monitoring()
 r = gm.get_info()
 print(r["time"])
 
+class write_log:
+    def write_log():
+        gm = get_monitoring()
+        parametrs = gm.get_info()
+        my_file = open('log.txt', 'w')
+        my_file.writelines(
+            "{0}{1}\n".format(
+                "Текущее время: ", str(parametrs["time"])
+                )
+        )
+        my_file.writelines("{0}{1}\n".format(
+            "Kоличество логических процессоров в системе: ",
+            str(parametrs["cpu_count"])
+                )
+        )
+        my_file.writelines(
+            "{0}{1}\n".format(
+                "Уровень нагрузки процессора : ", str(parametrs["cpu_percent"])
+                )
+        )
+        my_file.writelines(
+            "{0}{1}\n".format(
+                "Время работы центрального процессора: ",
+                str(parametrs["cpu_times"].user)
+                )
+        )
+        my_file.writelines(
+            "{0}{1}\n".format(
+                "Использование системной памяти в байтах: ",
+                str(parametrs["virtual_memory"].used)
+                )
+        )
+        my_file.writelines(
+            "{0}{1}\n".format(
+                "Список всех смонтированных разделов диска: ",
+                str(parametrs["disk_partitions"])
+                )
+        )
+        my_file.writelines(
+            "{0}{1}\n".format(
+                "Данных о вводе/выводе: ",
+                str(parametrs["disk_io_counters"].read_count)+"/"+str(
+                        parametrs["disk_io_counters"].write_count)
+                )
+        )
+        my_file.writelines(
+            "{0}{1}\n".format(
+                "Данные сетевого ввода/вывода: ", str(
+                        parametrs["net_io_counters"].bytes_sent)+"/"+str(
+                        parametrs["net_io_counters"].bytes_recv)
+                )
+        )
+        my_file.close()
+    write_log()
 
-"""def write_log():
-    parametrs = get_info()
-    my_file = open('log.txt', 'a')
-    my_file.writelines(
-        "{0}{1}\n".format(
-            "Текущее время: ", str(parametrs["time"])
-            )
-    )
-    my_file.writelines("{0}{1}\n".format(
-        "Kоличество логических процессоров в системе: ",
-        str(parametrs["cpu_count"])
-            )
-    )
-    my_file.writelines(
-        "{0}{1}\n".format(
-            "Уровень нагрузки процессора : ", str(parametrs["cpu_percent"])
-            )
-    )
-    my_file.writelines(
-        "{0}{1}\n".format(
-            "Время работы центрального процессора: ",
-            str(parametrs["cpu_times"].user)
-            )
-    )
-    my_file.writelines(
-        "{0}{1}\n".format(
-            "Использование системной памяти в байтах: ",
-            str(parametrs["virtual_memory"].used)
-            )
-    )
-    my_file.writelines(
-        "{0}{1}\n".format(
-            "Список всех смонтированных разделов диска: ",
-            str(parametrs["disk_partitions"])
-            )
-    )
-    my_file.writelines(
-        "{0}{1}\n".format(
-            "Данных о вводе/выводе: ",
-            str(parametrs["disk_io_counters"].read_count)+"/"+str(
-                    parametrs["disk_io_counters"].write_count)
-            )
-    )
-    my_file.writelines(
-        "{0}{1}\n".format(
-            "Данные сетевого ввода/вывода: ", str(
-                    parametrs["net_io_counters"].bytes_sent)+"/"+str(
-                    parametrs["net_io_counters"].bytes_recv)
-            )
-    )
-    my_file.close()
-write_log()
-
-while True:
+"""while True:
     time.sleep(30)
-    write_log()
+        write_log()
 
 
-def main():
-    write_log()
-main()"""
+    def main():
+        write_log()
+    main()"""
