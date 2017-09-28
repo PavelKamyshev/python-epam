@@ -5,20 +5,12 @@ import time
 import configparser
 
 
-def settingsfile():
-        config = configparser.ConfigParser()
-        config.read('config5-1.cfg')
-        interval = config.get("interval", "interval")
-        result = {"interval": interval}
-        return result
-
-
 class Monitoring:
         def __init__(self):
-            # Показывает текущую дату и время
             self.getInform()
 
         def getInform(self):
+            # Показывает текущую дату и время
             self.now = datetime.datetime.now()
             # Возвращает количество логических процессоров в системе
             self.a = psutil.cpu_count()
@@ -92,6 +84,6 @@ class Writer(Monitoring):
             self.getInform()
             self.write_log()
             time.sleep(int(self.settingsfile()["interval"]))
-            settingsfile()
+            self.settingsfile()
 
 wr = Writer()

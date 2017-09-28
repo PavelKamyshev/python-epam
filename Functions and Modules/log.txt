@@ -1,0 +1,32 @@
+Текущее время: 2017-08-24 11:18:08.834707
+Kоличество логических процессоров в системе: 2
+Уровень нагрузки процессора : 4.4
+Время работы центрального процессора: 15904.84
+Использование системной памяти в байтах: 2347274240
+Список всех смонтированных разделов диска: [sdiskpart(device='/dev/mapper/fedora-root', mountpoint='/', fstype='ext4', opts='rw,relatime,data=ordered'), sdiskpart(device='/dev/sda1', mountpoint='/boot', fstype='ext4', opts='rw,relatime,data=ordered'), sdiskpart(device='/dev/sr0', mountpoint='/run/media/kamyshev/VBOXADDITIONS_5.1.22_115126', fstype='iso9660', opts='ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500')]
+Данных о вводе/выводе: 1292589/1167768
+Данные сетевого ввода/вывода: 151138223/1051466470
+Текущее время: 2017-08-24 11:19:11.895195
+Kоличество логических процессоров в системе: 2
+Уровень нагрузки процессора : 13.3
+Время работы центрального процессора: 15924.35
+Использование системной памяти в байтах: 2345979904
+Список всех смонтированных разделов диска: [sdiskpart(device='/dev/mapper/fedora-root', mountpoint='/', fstype='ext4', opts='rw,relatime,data=ordered'), sdiskpart(device='/dev/sda1', mountpoint='/boot', fstype='ext4', opts='rw,relatime,data=ordered'), sdiskpart(device='/dev/sr0', mountpoint='/run/media/kamyshev/VBOXADDITIONS_5.1.22_115126', fstype='iso9660', opts='ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500')]
+Данных о вводе/выводе: 1292681/1168349
+Данные сетевого ввода/вывода: 151257052/1051803346
+Текущее время: 2017-08-24 11:20:14.954166
+Kоличество логических процессоров в системе: 2
+Уровень нагрузки процессора : 14.0
+Время работы центрального процессора: 15939.04
+Использование системной памяти в байтах: 2345607168
+Список всех смонтированных разделов диска: [sdiskpart(device='/dev/mapper/fedora-root', mountpoint='/', fstype='ext4', opts='rw,relatime,data=ordered'), sdiskpart(device='/dev/sda1', mountpoint='/boot', fstype='ext4', opts='rw,relatime,data=ordered'), sdiskpart(device='/dev/sr0', mountpoint='/run/media/kamyshev/VBOXADDITIONS_5.1.22_115126', fstype='iso9660', opts='ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500')]
+Данных о вводе/выводе: 1292687/1168784
+Данные сетевого ввода/вывода: 151384828/1052087337
+Текущее время: 2017-08-24 11:21:18.004733
+Kоличество логических процессоров в системе: 2
+Уровень нагрузки процессора : 12.6
+Время работы центрального процессора: 15954.92
+Использование системной памяти в байтах: 2335166464
+Список всех смонтированных разделов диска: [sdiskpart(device='/dev/mapper/fedora-root', mountpoint='/', fstype='ext4', opts='rw,relatime,data=ordered'), sdiskpart(device='/dev/sda1', mountpoint='/boot', fstype='ext4', opts='rw,relatime,data=ordered'), sdiskpart(device='/dev/sr0', mountpoint='/run/media/kamyshev/VBOXADDITIONS_5.1.22_115126', fstype='iso9660', opts='ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500')]
+Данных о вводе/выводе: 1292689/1169236
+Данные сетевого ввода/вывода: 151503431/1052375510
